@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>县级医院陪诊系统后台</title>
+  <link rel="stylesheet" href="/admin/styles.css" />
+</head>
+<body>
+  <div id="loginPanel" class="auth-wrap">
+    <div class="auth-card">
+      <h1>县级医院陪诊系统后台</h1>
+      <p class="muted">管理员账号固定为 root，密码固定为 123456</p>
+      <div class="auth-form">
+        <input id="loginAccount" type="text" maxlength="32" placeholder="请输入管理员账号" value="root" />
+        <input id="loginPassword" type="password" placeholder="请输入管理员密码" value="123456" />
+        <button id="loginBtn" class="btn primary">登录</button>
+      </div>
+      <p id="authMessage" class="message"></p>
+    </div>
+  </div>
+
+  <div id="appPanel" class="layout hidden">
+    <aside class="sidebar">
+      <h2>后台菜单</h2>
+      <button class="nav-btn active" data-view="dashboard">首页</button>
+      <button class="nav-btn" data-view="orders">订单管理</button>
+      <button class="nav-btn" data-view="companions">陪诊师审核</button>
+      <button class="nav-btn" data-view="createOrder">新建订单</button>
+      <button class="nav-btn" data-view="hospitals">医院管理</button>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <div>
+          <h1>管理后台</h1>
+          <p id="currentUser" class="muted">未登录</p>
+        </div>
+        <button id="logoutBtn" class="btn danger">退出</button>
+      </header>
+
+      <section id="dashboardView" class="view active">
+        <div class="card-grid">
+          <article class="card">
+            <h3>订单总数</h3>
+            <p id="statTotal">0</p>
+          </article>
+          <article class="card">
+            <h3>进行中</h3>
+            <p id="statActive">0</p>
+          </article>
+          <article class="card">
+            <h3>已完成</h3>
+            <p id="statDone">0</p>
+          </article>
+          <article class="card">
+            <h3>累计收入</h3>
+            <p id="statIncome">¥0.00</p>
+          </article>
+        </div>
+
+        <div class="chart-grid">
+          <article class="chart-card">
+            <div class="chart-head">
+              <h3>陪诊师状态统计</h3>
+              <span class="muted">按当前审核状态分布</span>
+            </div>
+            <canvas id="companionPieChart" class="chart-canvas" aria-label="陪诊师状态统计饼图"></canvas>
+            <div id="companionPieLegend" class="chart-legend"></div>
+          </article>
+
+          <article class="chart-card">
+            <div class="chart-head">
+              <h3>营业金额趋势</h3>
+              <span class="muted">按已完成订单日期统计</span>
+            </div>
+            <canvas id="incomeLineChart" class="chart-canvas" aria-label="营业金额折线图"></canvas>
+          </article>
+        </div>
+      </section>
+
+      <section id="ordersView" class="view">
+        <div class="section-title-row">
+          <h2>订单列表</h2>
+          <button id="refreshOrdersBtn" class="btn">刷新</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+            <tr>
+              <th>订单号</th>
+              <th>医院</th>
+              <th>服务类型</th>
+              <th>状态</th>
+              <th>预约时间</th>
+              <th>金额</th>
+              <th>患者</th>
+              <th>操作</th>
+            </tr>
+            </thead>
+            <tbody id="ordersBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="companionsView" class="view">
+        <div class="section-title-row">
+          <h2>陪诊师审核列表</h2>
+          <button id="refreshCompanionsBtn" class="btn">刷新</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+            <tr>
+              <th>ID</th>
+              <th>手机号</th>
+              <th>状态</th>
+              <th>申请时间</th>
+              <th>操作</th>
+            </tr>
+            </thead>
+            <tbody id="companionsBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="createOrderView" class="view">
+        <h2>新建订单</h2>
+        <form id="createOrderForm" class="form-grid">
+          <label>医院
+            <select id="formHospital" required></select>
+          </label>
+          <label>服务类型
+            <select id="formServiceType" required>
+              <option value="1">全程陪诊</option>
+              <option value="2">检查陪同</option>
+              <option value="3">乡镇接送</option>
+            </select>
+          </label>
+          <label>预约时间
+            <input id="formReserveTime" type="text" placeholder="2026-03-06 09:30" required />
+          </label>
+          <label>患者姓名
+            <input id="formPatientName" type="text" required />
+          </label>
+          <label>患者手机号
+            <input id="formPatientPhone" type="text" maxlength="11" required />
+          </label>
+          <label>金额
+            <input id="formAmount" type="number" min="1" value="199" required />
+          </label>
+          <button type="submit" class="btn primary">提交订单</button>
+        </form>
+        <p id="createMessage" class="message"></p>
+      </section>
+
+      <section id="hospitalsView" class="view">
+        <div class="section-title-row">
+          <h2>医院列表</h2>
+          <button id="refreshHospitalsBtn" class="btn">刷新</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+            <tr>
+              <th>ID</th>
+              <th>名称</th>
+              <th>等级</th>
+              <th>地址</th>
+              <th>电话</th>
+            </tr>
+            </thead>
+            <tbody id="hospitalsBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/admin/app.js"></script>
+</body>
+</html>

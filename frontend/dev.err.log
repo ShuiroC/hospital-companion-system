@@ -1,0 +1,680 @@
+[2m16:23:16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/RegisterView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:9:26
+[33m  7  |  import CompanionView from '../views/CompanionView.vue'
+  8  |  import LoginView from '../views/LoginView.vue'
+  9  |  import RegisterView from '../views/RegisterView.vue'
+     |                           ^
+  10 |  
+  11 |  const routes = [[39m
+[2m16:23:16[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/RegisterView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:9:26
+[33m  7  |  import CompanionView from '../views/CompanionView.vue'
+  8  |  import LoginView from '../views/LoginView.vue'
+  9  |  import RegisterView from '../views/RegisterView.vue'
+     |                           ^
+  10 |  
+  11 |  const routes = [[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m16:23:16[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/RegisterView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:9:26
+[33m  7  |  import CompanionView from '../views/CompanionView.vue'
+  8  |  import LoginView from '../views/LoginView.vue'
+  9  |  import RegisterView from '../views/RegisterView.vue'
+     |                           ^
+  10 |  
+  11 |  const routes = [[39m
+[2m16:23:16[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/RegisterView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:9:26
+[33m  7  |  import CompanionView from '../views/CompanionView.vue'
+  8  |  import LoginView from '../views/LoginView.vue'
+  9  |  import RegisterView from '../views/RegisterView.vue'
+     |                           ^
+  10 |  
+  11 |  const routes = [[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:33:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/router/index.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/main.js. Does the file exist?
+[2m17:33:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:33:57[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:34:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/stores/auth.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/stores/auth.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/App.vue. Does the file exist?
+[2m17:34:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:34:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/stores/auth.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/stores/auth.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/App.vue. Does the file exist?
+[2m17:34:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/stores/auth.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/stores/auth.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/App.vue. Does the file exist?
+[2m17:34:12[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:34:24[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:34:24[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:34:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/App.vue (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/App.vue) in G:/github/workspace/county-hospital-companion-system/frontend/src/main.js. Does the file exist?
+[2m17:34:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:34:57[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:35:14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:35:14[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:35:20[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:35:38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:35:39[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:35:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:35:58[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:35:59[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:36:08[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:36:23[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:36:23[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:36:35[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:36:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:36:51[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:36:59[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:37:17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:37:17[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:38:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+[2m17:38:01[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientHomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:2:30
+[33m  1  |  import { createRouter, createWebHistory } from 'vue-router'
+  2  |  import PatientHomeView from '../views/PatientHomeView.vue'
+     |                               ^
+  3  |  import OrderListView from '../views/OrderListView.vue'
+  4  |  import OrderCreateView from '../views/OrderCreateView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:38:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientReviewView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:6:32
+[33m  4  |  import OrderCreateView from '../views/OrderCreateView.vue'
+  5  |  import OrderDetailView from '../views/OrderDetailView.vue'
+  6  |  import PatientReviewView from '../views/PatientReviewView.vue'
+     |                                 ^
+  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'[39m
+[2m17:38:23[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientReviewView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:6:32
+[33m  4  |  import OrderCreateView from '../views/OrderCreateView.vue'
+  5  |  import OrderDetailView from '../views/OrderDetailView.vue'
+  6  |  import PatientReviewView from '../views/PatientReviewView.vue'
+     |                                 ^
+  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:38:55[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/PatientProfileView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:7:33
+[33m  5  |  import OrderDetailView from '../views/OrderDetailView.vue'
+  6  |  import PatientReviewView from '../views/PatientReviewView.vue'
+  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+     |                                  ^
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'[39m
+[2m17:38:55[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/PatientProfileView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:7:33
+[33m  5  |  import OrderDetailView from '../views/OrderDetailView.vue'
+  6  |  import PatientReviewView from '../views/PatientReviewView.vue'
+  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+     |                                  ^
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:39:14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/CompanionOrderHallView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:8:37
+[33m  6  |  import PatientReviewView from '../views/PatientReviewView.vue'
+  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+     |                                      ^
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'[39m
+[2m17:39:15[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/CompanionOrderHallView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:8:37
+[33m  6  |  import PatientReviewView from '../views/PatientReviewView.vue'
+  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+     |                                      ^
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:39:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/CompanionServiceRecordView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:9:41
+[33m  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+     |                                          ^
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'
+  11 |  import CompanionWithdrawView from '../views/CompanionWithdrawView.vue'[39m
+[2m17:39:37[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/CompanionServiceRecordView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:9:41
+[33m  7  |  import PatientProfileView from '../views/PatientProfileView.vue'
+  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+     |                                          ^
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'
+  11 |  import CompanionWithdrawView from '../views/CompanionWithdrawView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 8)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:53:17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/CompanionIncomeView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:10:34
+[33m  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'
+     |                                   ^
+  11 |  import CompanionWithdrawView from '../views/CompanionWithdrawView.vue'
+  12 |  import LoginView from '../views/LoginView.vue'[39m
+[2m17:53:17[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/CompanionIncomeView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:10:34
+[33m  8  |  import CompanionOrderHallView from '../views/CompanionOrderHallView.vue'
+  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'
+     |                                   ^
+  11 |  import CompanionWithdrawView from '../views/CompanionWithdrawView.vue'
+  12 |  import LoginView from '../views/LoginView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 9)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m17:53:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../views/CompanionWithdrawView.vue" from "src/router/index.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:11:36
+[33m  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'
+  11 |  import CompanionWithdrawView from '../views/CompanionWithdrawView.vue'
+     |                                     ^
+  12 |  import LoginView from '../views/LoginView.vue'
+  13 |  import RegisterView from '../views/RegisterView.vue'[39m
+[2m17:53:32[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../views/CompanionWithdrawView.vue" from "src/router/index.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mG:/github/workspace/county-hospital-companion-system/frontend/src/router/index.js[39m:11:36
+[33m  9  |  import CompanionServiceRecordView from '../views/CompanionServiceRecordView.vue'
+  10 |  import CompanionIncomeView from '../views/CompanionIncomeView.vue'
+  11 |  import CompanionWithdrawView from '../views/CompanionWithdrawView.vue'
+     |                                     ^
+  12 |  import LoginView from '../views/LoginView.vue'
+  13 |  import RegisterView from '../views/RegisterView.vue'[39m
+      at TransformPluginContext._formatLog (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 10)
+      at async TransformPluginContext.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///G:/github/workspace/county-hospital-companion-system/frontend/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m18:28:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/api/request.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/api/request.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/api/auth.js. Does the file exist?
+[2m18:28:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/api/request.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/api/request.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/api/auth.js. Does the file exist?
+[2m18:28:43[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/api/request.js (resolved id: G:/github/workspace/county-hospital-companion-system/frontend/src/api/request.js) in G:/github/workspace/county-hospital-companion-system/frontend/src/api/auth.js. Does the file exist?
+[2m19:39:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:39:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:39:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:40:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:40:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:40:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:41:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:41:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:41:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:42:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:42:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m19:42:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:12:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:13:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:14:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:15:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:16:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:17:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:18:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:19:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:20:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m20:59:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m21:00:43[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2m21:01:42[22m [31m[1m[vite][22m[39m [31mhttp proxy error: /api/orders?companionPhone=13929943229[39m
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)

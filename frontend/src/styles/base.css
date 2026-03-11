@@ -1,0 +1,53 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+:root {
+  --app-bg: #eef3f8;
+  --app-text: #1f2937;
+  --app-muted: #4b5563;
+  --app-focus: #0f4c81;
+  --app-font-size: 16px;
+  --app-line-height: 1.6;
+  --app-control-height: 44px;
+  --app-card-radius: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+  color: var(--app-text);
+  background: var(--app-bg);
+  font-size: var(--app-font-size);
+  line-height: var(--app-line-height);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.el-card {
+  border-radius: var(--app-card-radius);
+}
+
+.el-button {
+  min-height: var(--app-control-height);
+  font-weight: 600;
+}
+
+.el-input__wrapper,
+.el-textarea__inner,
+.el-select__wrapper,
+.el-date-editor.el-input__wrapper,
+.el-input-number {
+  min-height: var(--app-control-height);
+}
+
+.el-form-item__label {
+  font-weight: 600;
+}
+
+*:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--app-focus) 72%, white 28%);
+  outline-offset: 2px;
+}

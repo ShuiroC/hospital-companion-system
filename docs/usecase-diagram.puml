@@ -1,0 +1,56 @@
+﻿@startuml
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+
+actor "患者" as Patient
+actor "陪诊员" as Companion
+actor "管理员" as Admin
+
+rectangle "县级医院陪诊管理系统" {
+  usecase "注册账号" as UC_Register
+  usecase "登录" as UC_Login
+  usecase "修改用户名" as UC_UpdateName
+
+  usecase "浏览医院" as UC_Hospital
+  usecase "创建订单" as UC_CreateOrder
+  usecase "支付订单" as UC_Pay
+  usecase "查看订单列表/详情" as UC_ViewOrder
+  usecase "取消订单" as UC_Cancel
+  usecase "评价订单" as UC_Review
+
+  usecase "接单" as UC_Accept
+  usecase "推进服务状态" as UC_Next
+  usecase "查看患者详情" as UC_PatientDetail
+  usecase "收入统计" as UC_Income
+  usecase "提现申请" as UC_Withdraw
+
+  usecase "陪诊员审核" as UC_Audit
+  usecase "后台订单管理" as UC_AdminOrder
+  usecase "后台医院管理" as UC_AdminHospital
+}
+
+Patient --> UC_Register
+Companion --> UC_Register
+Patient --> UC_Login
+Companion --> UC_Login
+Patient --> UC_UpdateName
+Companion --> UC_UpdateName
+
+Patient --> UC_Hospital
+Patient --> UC_CreateOrder
+Patient --> UC_Pay
+Patient --> UC_ViewOrder
+Patient --> UC_Cancel
+Patient --> UC_Review
+
+Companion --> UC_Accept
+Companion --> UC_Next
+Companion --> UC_PatientDetail
+Companion --> UC_Income
+Companion --> UC_Withdraw
+
+Admin --> UC_Audit
+Admin --> UC_AdminOrder
+Admin --> UC_AdminHospital
+@enduml

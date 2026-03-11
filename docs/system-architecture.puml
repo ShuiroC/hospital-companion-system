@@ -1,0 +1,47 @@
+﻿@startuml
+top to bottom direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+
+rectangle "用户层" {
+  actor "患者" as Patient
+  actor "陪诊员" as Companion
+  actor "管理员" as Admin
+}
+
+rectangle "表现层" {
+  rectangle "前端应用\nVue3 + Vite + Pinia + Element Plus" as Frontend
+  rectangle "管理后台页面\nstatic/admin" as AdminPage
+}
+
+rectangle "业务层（Spring Boot）" {
+  rectangle "REST API" as API
+  rectangle "用户认证模块\nAuthController" as Auth
+  rectangle "订单管理模块\nOrderController + OrderService" as Order
+  rectangle "医院信息模块\nHospitalController" as Hospital
+  rectangle "审核管理模块\nAdminCompanionController" as Audit
+}
+
+rectangle "数据层" {
+  rectangle "MyBatis-Plus" as Mapper
+  database "MySQL\nuser / order_record / hospital" as MySQL
+}
+
+Patient --> Frontend
+Companion --> Frontend
+Admin --> AdminPage
+
+Frontend --> API
+AdminPage --> API
+
+API --> Auth
+API --> Order
+API --> Hospital
+API --> Audit
+
+Auth --> Mapper
+Order --> Mapper
+Hospital --> Mapper
+Audit --> Mapper
+Mapper --> MySQL
+@enduml
